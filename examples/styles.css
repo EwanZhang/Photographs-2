@@ -55,7 +55,8 @@ p code {
     text-align: center;
     display: block;
     padding: 0 5%;
-    border: 1px solid black;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black
     margin: 3em auto 2em;
     font-size: 1em;
     color: #444;
@@ -78,7 +79,7 @@ p code {
     color: #333;
 }
 .nav li a:hover {
-    background: papayawhip;
+    background: #222;
 }
 @media (min-width: 44em){
     .nav {
@@ -119,7 +120,7 @@ h2 {
     margin: 2em 0;
     font-family: 'Raleway', sans-serif;
     font-size: 1.2em;
-    border-bottom: 1px solid papayawhip;
+    border-bottom: 1px solid #000;
     text-align: center;
     padding: .3em 0 .4em;
 }
