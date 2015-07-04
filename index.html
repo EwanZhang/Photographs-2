@@ -3,9 +3,9 @@ layout: default
 title: 
 ---
 <h2>{{ page.title }}</h2>
-<div style="text-align:center;">
-	<span style="line-height:1.5;font-size:24px;"><strong>Photographs</strong></span>
-</div>
+<p style="text-align: center;">
+    <span style="font-family: 黑体, SimHei; font-size: 42px;"><strong><span style="font-family: 黑体, SimHei; color: rgb(51, 51, 51); line-height: 16.7999992370605px; white-space: pre; background-color: rgb(255, 255, 255);">Photographs</span></strong></span>
+</p>
 <ul>
 　　{% for post in site.posts %}
 　　　　<li>{{ post.date | date_to_string }} <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
