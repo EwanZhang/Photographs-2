@@ -57,7 +57,7 @@ p code {
     padding: 0 5%;
     border-top: 1px solid papayawhip;
     border-bottom: 1px solid papayawhip;
-    margin: 0 auto 2em;
+    margin: 3em auto 2em;
     background: #fafafa;
     font-size: 1em;
     color: #444;
@@ -85,7 +85,7 @@ p code {
 @media (min-width: 44em){
     .nav {
         display: table;
-        border: 1px solid papayawhip;
+        border: 1px solid black;
         width: 80%;
         padding: 0;
     }
